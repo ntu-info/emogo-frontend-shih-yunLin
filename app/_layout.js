@@ -1,21 +1,30 @@
 import { Stack } from "expo-router";
+import { useEffect } from "react";
+import { initDatabase } from '../database/db';
+import { scheduleDailyNotifications } from '../utils/notifications';
 
 export default function RootLayout() {
+  useEffect(() => {
+    initDatabase();
+    scheduleDailyNotifications(); // Schedule 3x daily
+  }, []);
+
   return (
-    <>
-      {/* Root stack controls screen transitions for the whole app */}
-      <Stack>
-        {/* The (tabs) group is one Stack screen with its own tab navigator */}
-        <Stack.Screen
-          name="(tabs)"
-          options={{ headerShown: false }}
-        />
-        {/* This screen is pushed on top of tabs when you navigate to /details */}
-        <Stack.Screen
-          name="details"
-          options={{ title: "Details" }}
-        />
-      </Stack>
-    </>
+    <Stack>
+      <Stack.Screen
+        name="(tabs)"
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="details"
+        options={{ title: "Details" }}
+      />
+      <Stack.Screen
+        name="record-mood"
+        options={{
+          headerShown: false,
+        }}
+      />
+    </Stack>
   );
 }
