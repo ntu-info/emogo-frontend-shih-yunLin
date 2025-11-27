@@ -7,9 +7,9 @@
 
 ## 📱 App URI
 
-**Expo 發布連結**: 建置中...
+**Expo Build**: [https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe/builds/2ea73f17-47ed-4df1-8ac4-98755e613cd0](https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe/builds/2ea73f17-47ed-4df1-8ac4-98755e613cd0)
 
-<!-- 部署後將更新為: https://expo.dev/@shihyun_lin/expo-router-mwe -->
+**專案頁面**: [https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe](https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe)
 
 ## 🎨 主要功能
 
@@ -114,8 +114,9 @@ npx expo start --tunnel
 ## 📋 作業完成度檢查
 
 ### ✅ [1] App URI @ https://expo.dev/...
-- 狀態: ⏳ 建置中（執行 `eas build`）
-- 完成後將更新至本檔案
+- 狀態: ✅ **已完成**
+- Build URL: [https://expo.dev/.../builds/2ea73f17-47ed-4df1-8ac4-98755e613cd0](https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe/builds/2ea73f17-47ed-4df1-8ac4-98755e613cd0)
+- 專案頁面: [expo.dev/accounts/shihyun_lin/projects/expo-router-mwe](https://expo.dev/accounts/shihyun_lin/projects/expo-router-mwe)
 
 ### ✅ [2] RN Source Code + Human-AI Interaction History
 - Source Code: ✅ 完成
